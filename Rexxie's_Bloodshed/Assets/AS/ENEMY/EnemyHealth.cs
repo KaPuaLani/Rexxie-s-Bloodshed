@@ -11,11 +11,13 @@ public class EnemyHealth : MonoBehaviour
     //the thing we want to drop
     public GameObject prefab;
     public int dropChance = 100;
+    public int souls = 0;
+    public float Damage = 2;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Nbullet")
         {
-            Enemyhealth -= 2;
+            Enemyhealth -= Damage;
             if (Enemyhealth <= 0)
             {
                 //see if we should drop an item
@@ -39,6 +41,11 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        int tempSouls = FindObjectOfType<Collectables>().souls;
+        if (tempSouls > souls)
+        {
+            Damage++;
+            souls = tempSouls;
+        }
     }
 }

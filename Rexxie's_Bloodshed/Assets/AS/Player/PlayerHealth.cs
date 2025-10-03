@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public float health = 20;
     float maxHealth;
     public Image healthBar;
+    int souls = 0;
     //if we collide with something tagged as enemy, take damage
     //if health gets too low, we die (reload the level)
     //if we collide with something tagged health pack, increase health
@@ -73,6 +74,11 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        int tempSouls = FindObjectOfType<Collectables>().souls;
+        if (tempSouls > souls)
+        {
+            maxHealth++;
+            souls = tempSouls;
+        }
     }
 }

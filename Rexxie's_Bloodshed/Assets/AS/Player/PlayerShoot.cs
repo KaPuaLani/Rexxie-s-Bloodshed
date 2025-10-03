@@ -22,9 +22,12 @@ public class PlayerShoot : MonoBehaviour
         int tempSouls = FindObjectOfType<Collectables>().souls;
         if (tempSouls > souls)
         {
-            shootSpeed++;
+            shootSpeed += 1;
+            shootDelay -= (float)0.2;
             souls = tempSouls;
+
         }
+        
         //time slivers of time that passes between frame updates
         //0.016666 if 60f/second
         timer += Time.deltaTime;

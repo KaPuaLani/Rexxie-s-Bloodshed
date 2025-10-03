@@ -55176,7 +55176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1093054c2bf96ac4b9f56ad5d6407f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 8
 --- !u!114 &573014520199352813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55212,7 +55212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c95b3d1a4651dfd479c5354c1b881778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 8
   healthBar: {fileID: 4448772368489401902}
 --- !u!1 &815289348136410939
 GameObject:
@@ -55806,6 +55806,8 @@ MonoBehaviour:
   Enemyhealth: 11
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!70 &1840104527702215505
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -55918,6 +55920,8 @@ MonoBehaviour:
   Enemyhealth: 25
   prefab: {fileID: 135520366166783451, guid: a921ad7803c2d8742b9e98238c702d2c, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!95 &2074869527985430191
 Animator:
   serializedVersion: 5
@@ -57379,6 +57383,8 @@ MonoBehaviour:
   Enemyhealth: 4
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!223 &3261734639202418319
 Canvas:
   m_ObjectHideFlags: 0
@@ -57453,6 +57459,8 @@ MonoBehaviour:
   Enemyhealth: 8
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3410262211009496425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57726,6 +57734,8 @@ MonoBehaviour:
   Enemyhealth: 8
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331746092498392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57741,6 +57751,8 @@ MonoBehaviour:
   Enemyhealth: 25
   prefab: {fileID: 135520366166783451, guid: a921ad7803c2d8742b9e98238c702d2c, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331746397001027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57756,6 +57768,8 @@ MonoBehaviour:
   Enemyhealth: 8
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331746474591130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57771,6 +57785,8 @@ MonoBehaviour:
   Enemyhealth: 1
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331746646236631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57786,6 +57802,8 @@ MonoBehaviour:
   Enemyhealth: 1
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331746736037056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57801,6 +57819,8 @@ MonoBehaviour:
   Enemyhealth: 1
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331746748982091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57816,6 +57836,8 @@ MonoBehaviour:
   Enemyhealth: 5
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331746783774242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57831,6 +57853,8 @@ MonoBehaviour:
   Enemyhealth: 1
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331746949882322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57846,6 +57870,8 @@ MonoBehaviour:
   Enemyhealth: 7
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331747020174268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57861,6 +57887,8 @@ MonoBehaviour:
   Enemyhealth: 25
   prefab: {fileID: 135520366166783451, guid: a921ad7803c2d8742b9e98238c702d2c, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331747642912931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57876,6 +57904,8 @@ MonoBehaviour:
   Enemyhealth: 5
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!114 &3814331748015345531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57891,6 +57921,8 @@ MonoBehaviour:
   Enemyhealth: 4
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!4 &4005765065537337800
 Transform:
   m_ObjectHideFlags: 0
@@ -59613,6 +59645,8 @@ MonoBehaviour:
   Enemyhealth: 11
   prefab: {fileID: 542681309283389037, guid: 03cd523d9b6e2044fa203c75f1274b72, type: 3}
   dropChance: 100
+  souls: 0
+  Damage: 2
 --- !u!222 &7124523604900709703
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -61467,7 +61501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3511405524216159114, guid: ab252a6e2c1ef524f96f3814c07f2e59, type: 3}
-  shootSpeed: 20
+  shootSpeed: 18
   bulletLifetime: 0.6
   shootDelay: 0.9
 --- !u!1 &8763058881549869133
